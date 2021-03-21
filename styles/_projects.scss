@@ -1,0 +1,24 @@
+.projects{
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+    @include flex(space-between,center,row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2{
+        margin: 5rem;
+    }
+}
+
+.repelants, .drose{
+    flex: 1 1 40rem;
+    @include flex(center, center, column);
+    img{
+        border-radius: 2rem;
+        width: 90%;
+        }
+    img:hover{
+        border: 0.3rem solid #2c2c2c;
+        cursor: pointer;
+    }
+} 
