@@ -35,10 +35,10 @@ nav{
         font-size: 10rem;
         font-family: 'Orbitron', sans-serif;
         padding-top: 2rem;
+        display: inline-block; /*inline block is used to make the background of the text of the same size as the text*/
         background: $gradient;
         background-clip: text;
-        text-fill-color: transparent; /* this is used to make the background color become the text color that is used mostly in the case of gradients or texture. */
-        display: inline-block; /*inline block is used to make the background of the text of the same size as the text*/
+        -webkit-text-fill-color: transparent; /* this is used to make the background color become the text color that is used mostly in the case of gradients or texture. */
     }
     h3{
         font-size: 6rem;
